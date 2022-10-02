@@ -111,11 +111,11 @@
 }
 
 #project{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-#project>img{
+#project>a>img{
     width: 200px;
     height: 200px;
     margin-right: 270px;
@@ -188,4 +188,64 @@ form{
 .edit7>a:hover{
     text-decoration: none;
     color:#919191;
+}
+
+.edit8{
+    color: rgb(49, 52, 69);
+}
+
+.edit8:hover{
+    text-decoration: none;
+    color: rgb(63, 89, 231 );
+}
+
+#service{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+#service1{
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#service>img{
+    width: 450px;
+    height: 300px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.service-edit1:hover{
+    transform: scale(1.5);
+    transform-origin: left;
+    transition: 1s;
+}
+
+.service-edit2:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.service-edit3:hover{
+    transform: scale(1.5);
+    transform-origin: right;
+    transition: 1s;
+}
+
+.service1-edit1{
+    margin-left: 170px;
+}
+
+.service1-edit2{
+    margin-left: 590px;
+    margin-top: -52px;
+}
+
+.service1-edit3{
+    margin-top: -52px;
+    margin-left: 1160px;
 }
